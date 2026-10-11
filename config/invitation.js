@@ -17,7 +17,7 @@ function buildConfig() {
 
   return {
     familyName: env("FAMILY_NAME", "[Your Family Name] Family"),
-    eventDate: env("EVENT_DATE"),
+    eventDate: env("2026-10-11"),
     address,
     mapsUrl: `https://maps.app.goo.gl/RdYLpSpVDYKuQpde9}`,
     countdownEnabled: boolEnv("COUNTDOWN_ENABLED", false),
@@ -30,6 +30,7 @@ function buildConfig() {
         body: "With love, devotion, and the glow of traditional lamps, we warmly invite you and your family to our home for Navaratri Golu. Come enjoy the beautiful Golu display, receive prasadam, and share in the joy and blessings of this auspicious celebration.",
         blessing: "May Goddess Durga bless you and your family with happiness, peace, prosperity, and abundance.",
         hostedBy: "With love,",
+        whenLabel: "Date",
         whereLabel: "Where",
         directions: "Get directions",
         shareWhatsApp: "Share on WhatsApp",
