@@ -17,7 +17,7 @@ function buildConfig() {
 
   return {
     familyName: env("FAMILY_NAME", "[Your Family Name] Family"),
-    eventDate: env["EVENT_DATE"],
+    eventDate: env("EVENT_DATE"),
     address,
     mapsUrl: `https://maps.app.goo.gl/RdYLpSpVDYKuQpde9}`,
     countdownEnabled: boolEnv("COUNTDOWN_ENABLED", false),
@@ -48,7 +48,7 @@ function buildConfig() {
         langLabel: "English",
         otherLang: "தமிழ்",
         shareMessage:
-          "You're invited to our Navaratri Golu.\n\nHosted by {familyName}\nWhen\nWhere: {address}\n\nDirections: {mapsUrl}\nInvitation: {inviteUrl}",
+          "You're invited to our Navaratri Golu.\n\nHosted by {familyName}\nDate\nWhere: {address}\n\nDirections: {mapsUrl}\nInvitation: {inviteUrl}",
       },
       ta: {
         heading: "எங்கள் நவராத்திரி கோலுக்கு அன்புடன் அழைக்கிறோம்",
