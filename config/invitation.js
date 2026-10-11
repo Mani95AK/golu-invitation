@@ -17,7 +17,7 @@ function buildConfig() {
 
   return {
     familyName: env("FAMILY_NAME", "[Your Family Name] Family"),
-    eventDate: env("2026-10-11"),
+    eventDate: "2026-10-11",
     address,
     mapsUrl: `https://maps.app.goo.gl/RdYLpSpVDYKuQpde9}`,
     countdownEnabled: boolEnv("COUNTDOWN_ENABLED", false),
