@@ -30,7 +30,6 @@ function buildConfig() {
         body: "With love, devotion, and the glow of traditional lamps, we warmly invite you and your family to our home for Navaratri Golu. Come enjoy the beautiful Golu display, receive prasadam, and share in the joy and blessings of this auspicious celebration.",
         blessing: "May Goddess Durga bless you and your family with happiness, peace, prosperity, and abundance.",
         hostedBy: "With love,",
-        whenLabel: "Date",
         whereLabel: "Where",
         directions: "Get directions",
         shareWhatsApp: "Share on WhatsApp",
