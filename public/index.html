@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4A0E1A" />
+    <meta
+      name="description"
+      content="A digital invitation to a Navaratri Golu celebration."
+    />
+    <title>You're Invited to Our Navaratri Golu</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Sans+Tamil:wght@400;500;600&family=Tiro+Tamil&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+    <div class="floating-diyas" aria-hidden="true">
+      <img src="/assets/diya.svg" alt="" class="float-diya d1" />
+      <img src="/assets/diya.svg" alt="" class="float-diya d2" />
+      <img src="/assets/diya.svg" alt="" class="float-diya d3" />
+    </div>
+
+    <a class="skip-link" href="#invitation">Skip to invitation</a>
+
+    <header class="topbar">
+      <p class="topbar-mark">ॐ</p>
+      <button
+        type="button"
+        class="lang-toggle"
+        id="lang-toggle"
+        aria-label="Switch language"
+      >
+        தமிழ்
+      </button>
+    </header>
+
+    <main id="invitation" class="wrap">
+      <section class="invite-card" aria-live="polite">
+        <div class="ornament top">
+          <img src="/assets/kolam.svg" alt="" />
+        </div>
+        <img class="toran" src="/assets/mango-leaf.svg" alt="" />
+
+        <p class="kicker" id="kicker">Navaratri · Golu Darshan</p>
+        <h1 id="heading">You're Invited to Our Navaratri Golu</h1>
+        <div class="gold-rule" aria-hidden="true"></div>
+
+        <figure class="golu-art">
+          <img
+            src="/assets/golu.svg"
+            width="420"
+            height="280"
+            alt="Stylized Golu dolls arranged on three festive steps"
+          />
+        </figure>
+
+        <p class="greeting" id="greeting">Dear family and friends,</p>
+        <p class="body-copy" id="body">
+          With warm hearts and lighted lamps, we invite you to our home for
+          Navaratri Golu.
+        </p>
+        <p class="blessing" id="blessing">
+          May Devi's grace fill your home with light, music, and abundance.
+        </p>
+
+        <div class="lotus-row" aria-hidden="true">
+          <img src="/assets/lotus.svg" alt="" />
+        </div>
+
+        <dl class="details">
+          <div>
+            <dt id="hosted-label">With love,</dt>
+            <dd id="family-name">The [Your Family Name] Family</dd>
+          </div>
+          <div>
+            <dt id="when-label">When</dt>
+            <dd id="when-value">Saturday, 18 October 2026 · 6:00 PM IST</dd>
+          </div>
+          <div>
+            <dt id="where-label">Where</dt>
+            <dd id="where-value">
+              123 Example Street, Sample Neighbourhood, City 000000, Tamil Nadu,
+              India
+            </dd>
+          </div>
+        </dl>
+
+        <div id="countdown" class="countdown" hidden>
+          <p class="countdown-title" id="countdown-title">Golu begins in</p>
+          <div class="countdown-grid">
+            <div><strong id="cd-days">00</strong><span id="cd-days-l">Days</span></div>
+            <div><strong id="cd-hours">00</strong><span id="cd-hours-l">Hours</span></div>
+            <div><strong id="cd-mins">00</strong><span id="cd-mins-l">Minutes</span></div>
+            <div><strong id="cd-secs">00</strong><span id="cd-secs-l">Seconds</span></div>
+          </div>
+        </div>
+        <p id="countdown-note" class="countdown-note" hidden></p>
+
+        <div class="actions">
+          <a
+            class="btn btn-gold"
+            id="maps-link"
+            href="https://www.google.com/maps"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get directions
+          </a>
+          <a
+            class="btn btn-maroon"
+            id="whatsapp-link"
+            href="https://wa.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Share on WhatsApp
+          </a>
+          <button type="button" class="btn btn-outline" id="copy-link">
+            Copy invitation link
+          </button>
+          <button type="button" class="btn btn-outline" id="copy-text">
+            Copy invitation text
+          </button>
+        </div>
+        <p class="status" id="status" role="status"></p>
+
+        <div class="ornament bottom">
+          <img src="/assets/kolam.svg" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <div id="error-banner" class="error-banner" hidden>
+      Invitation details could not be loaded. Showing placeholder information.
+    </div>
+
+    <footer class="footer">
+      <img src="/assets/diya.svg" alt="" width="36" height="40" />
+      <p>Navaratri Golu Invitation</p>
+    </footer>
+
+    <script src="/js/app.js" defer></script>
+  </body>
+</html>
