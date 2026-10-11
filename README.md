@@ -1,4 +1,4 @@
-# Navaratri Golu Invitation
+## Navaratri Golu Invitation
 
 A premium digital invitation for a South Indian Navaratri Golu. Node.js and Express serve a responsive HTML, CSS, and JavaScript page with English and Tamil wording.
 
